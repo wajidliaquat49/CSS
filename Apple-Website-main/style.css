@@ -1,0 +1,754 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    list-style-type: none;
+}
+
+.header {
+    background-color: rgb(31, 30, 30);
+    width: 100%;
+    height: 50px;
+}
+
+.content ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+ul {
+    height: 50px;
+}
+
+
+.img-1 {
+    width: 100%;
+}
+
+.img-2 {
+    width: 100%;
+}
+
+.boxes-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-1 {
+    height: 540px;
+    width: 50%;
+}
+
+.box-2 {
+    height: 537px;
+    width: 50%;
+}
+
+.box-3 {
+    height: 537px;
+    width: 50%;
+}
+
+.box-4 {
+    height: 537px;
+    width: 50%;
+}
+
+.box-5 {
+    height: 537px;
+    width: 50%;
+}
+
+.box-6 {
+    height: 537px;
+    width: 50%;
+}
+
+.box-7 {
+    height: 537px;
+    width: 100%;
+}
+
+
+
+.footer-content ul {
+    padding-top: 40px;
+    padding-left: 100px;
+    color: rgb(169, 168, 168);
+}
+
+.footer-content a {
+    color: rgb(69, 69, 69);
+}
+
+hr {
+    margin-top: 330px;
+    width: 88%;
+    margin-left: 90px;
+
+}
+
+#hr-2 {
+    margin-top: 20px;
+    width: 88%;
+    margin-left: 90px;
+}
+
+.Scnd-last-line {
+    padding-left: 100px;
+    padding-top: 250px;
+}
+
+
+.last-line {
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+.lines-content {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+
+.div-1 ul li {
+    line-height: 25px;
+    color: rgb(63, 63, 63);
+
+}
+
+
+.div-2 ul li {
+    line-height: 25px;
+    color: rgb(63, 63, 63);
+}
+
+.div-3 ul li {
+    line-height: 25px;
+    color: rgb(63, 63, 63);
+}
+
+.div-4 ul li {
+    line-height: 25px;
+    color: rgb(63, 63, 63);
+
+}
+
+
+
+.div-1 span {
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+.div-2 span {
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+.div-3 span {
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+.div-4 span {
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+ul li:hover {
+    color: gray;
+
+
+}
+
+ul li {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:0px) and (max-width:679px) {
+    .header {
+        width: 1000px;
+
+    }
+
+    .img-1 {
+        width: 1000px;
+    }
+
+    .img-2 {
+        width: 1000px;
+    }
+
+    .boxes-div {
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        width: 1000px;
+    }
+
+    .box-1 {
+        height: 600px;
+        width: 1000px;
+    }
+
+    .box-2 {
+        height: 600px;
+        width: 1000px;
+    }
+
+    .box-3 {
+        height: 650px;
+        width: 1000px;
+    }
+
+    .box-4 {
+        height: 600px;
+        width: 1000px;
+    }
+
+    .box-5 {
+        height: 600px;
+        width: 1000px;
+    }
+
+    .box-6 {
+        height: 600px;
+        width: 1000px;
+    }
+
+    .box-7 {
+        height: 500px;
+        width: 1000px;
+    }
+
+    /* 
+    .footer-content ul li {
+        color: black;
+
+
+    } */
+
+    .footer-content {
+        width: 1000px;
+    }
+
+    .lines-content {
+        width: 1000px;
+    }
+
+
+    .Scnd-last-line {
+        width: 1000px;
+    }
+
+
+    .last-line {
+        width: 1020px;
+    }
+
+
+
+
+
+    hr {
+        margin-top: 435px;
+    }
+
+
+    .lines-content {
+        font-size: small;
+    }
+
+
+    .lines-content {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 10px;
+
+    }
+
+    .div-1 ul li {
+        line-height: 25px;
+        color: rgb(63, 63, 63);
+
+    }
+
+
+    .div-2 ul li {
+        line-height: 25px;
+        color: rgb(63, 63, 63);
+    }
+
+    .div-3 ul li {
+        line-height: 25px;
+        color: rgb(63, 63, 63);
+    }
+
+    .div-4 ul li {
+        line-height: 25px;
+        color: rgb(63, 63, 63);
+
+    }
+
+
+
+    .div-1 span {
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+
+    .div-2 span {
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+
+    .div-3 span {
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+
+    .div-4 span {
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:680px) and (max-width:768px) {
+    .header {
+        background-color: rgb(31, 30, 30);
+        width: 1000px;
+        height: 50px;
+    }
+
+    .img-1 {
+        width: 1000px;
+    }
+
+    .img-2 {
+        width: 1000px;
+    }
+
+
+    .boxes-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 1000px;
+
+    }
+
+
+
+    .box-1 {
+        height: 300px;
+        width: 500px;
+    }
+
+    .box-2 {
+        height: 300px;
+        width: 500px;
+    }
+
+    .box-3 {
+        height: 300px;
+        width: 500px;
+    }
+
+    .box-4 {
+        height: 300px;
+        width: 500px;
+    }
+
+    .box-5 {
+        height: 300px;
+        width: 500px;
+    }
+
+    .box-6 {
+        height: 300px;
+        width: 500px;
+    }
+
+    .box-7 {
+        height: 300px;
+        width: 1000px;
+    }
+
+
+
+    hr {
+        margin-top: 280px;
+    }
+
+
+    #hr-2 {
+        width: 900px;
+    }
+
+
+
+    .Scnd-last-line {
+        padding-left: 92px;
+    }
+
+
+    .last-line {
+        padding-left: 90px;
+    }
+
+    .lines-content {
+        width: 1000px;
+    }
+
+
+    .last-line {
+        width: 1030px;
+    }
+
+    .footer-content ul li {
+        width: 1000px;
+    }
+
+
+
+
+
+
+
+
+    .lines-content {
+        font-size: small;
+    }
+
+
+    .lines-content {
+        display: flex;
+        justify-content: center;
+        /* justify-content: space-around; */
+        /* padding-left: 40px; */
+        margin-top: 10px;
+
+    }
+
+    hr {
+        width: 900px;
+    }
+
+
+
+
+    .div-1 ul li {
+        line-height: 25px;
+        color: rgb(63, 63, 63);
+
+    }
+
+
+    .div-2 ul li {
+        line-height: 25px;
+        color: rgb(63, 63, 63);
+    }
+
+    .div-3 ul li {
+        line-height: 25px;
+        color: rgb(63, 63, 63);
+    }
+
+    .div-4 ul li {
+        line-height: 25px;
+        color: rgb(63, 63, 63);
+
+    }
+
+
+
+    .div-1 span {
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+
+    .div-2 span {
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+
+    .div-3 span {
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+
+    .div-4 span {
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+}
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1075px) {
+
+    .footer-content {
+        font-size: small;
+    }
+
+    .lines-content {
+        font-size: small;
+    }
+
+    .last-line {
+        font-size: small;
+    }
+
+
+
+
+
+    .lines-content {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 10px;
+
+    }
+
+    .div-1 ul li {
+        line-height: 25px;
+        color: rgb(63, 63, 63);
+
+    }
+
+
+    .div-2 ul li {
+        line-height: 25px;
+        color: rgb(63, 63, 63);
+    }
+
+    .div-3 ul li {
+        line-height: 25px;
+        color: rgb(63, 63, 63);
+    }
+
+    .div-4 ul li {
+        line-height: 25px;
+        color: rgb(63, 63, 63);
+
+    }
+
+
+
+    .div-1 span {
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+
+    .div-2 span {
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+
+    .div-3 span {
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+
+    .div-4 span {
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+}

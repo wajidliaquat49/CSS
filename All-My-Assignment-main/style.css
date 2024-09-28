@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(168, 166, 166);
+}
+.heading{
+    position: sticky;
+    top: 0px;
+    background-color: red;
+    z-index: 1;
+    padding: 10px;
+}
+
+
+.heading h1 {
+    text-align: center;
+    /* padding-top: 30px; */
+    font-size: 50px;
+    text-shadow: 2px 2px orange;
+    font-weight: 700;
+
+}
+
+.row-1 {
+    display: flex;
+}
+
+
+.row-1 .box-1,
+.box-2,
+.box-3,
+.box-4 {
+    width: 25%;
+    height: 250px;
+    background-color: black;
+    border: 1px solid red;
+}
+
+
+
+.row-1 .box-1 h2 {
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 2px 2px orange;
+}
+
+.row-1 .box-1 li {
+    display: inline;
+    position: relative;
+    top: 150px;
+    left: 50px;
+
+
+
+}
+
+.row-1 .box-1 li a {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.row-1 .box-1 li a:hover {
+    background-color: blue;
+
+}
+
+
+/* 
+.animate__animated animate__heartBeat{
+    --animate-duration: 800ms;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1075px) {
+    .row-1 .box-1 li {
+        display: inline;
+        position: relative;
+        top: 150px;
+        left: 130px;
+
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .row-1 .box-1 li {
+        display: inline;
+        position: relative;
+        top: 150px;
+        left: 70px;
+    }
+
+}
+
+@media only screen and (max-width:425px) {
+    .row-1 .box-1 li {
+        display: inline;
+        position: relative;
+        top: 150px;
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .row-1 .box-1 li {
+        display: inline;
+        position: relative;
+        top: 150px;
+        left: 60px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .row-1 .box-1 li {
+        display: inline;
+        position: relative;
+        top: 150px;
+        left: 40px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width:576px) {
+    .heading h1 {
+        font-size: 33px;
+    }
+
+}
+
+@media only screen and (max-width:1076px) {
+    .row-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .row-1 .box-1,
+    .box-2,
+    .box-3,
+    .box-4 {
+        width: 50%;
+        height: 250px;
+
+    }
+}
+
+
+@media only screen and (max-width:576px) {
+
+    .row-1 .box-1,
+    .box-2,
+    .box-3,
+    .box-4 {
+        width: 100%;
+    }
+
+}
